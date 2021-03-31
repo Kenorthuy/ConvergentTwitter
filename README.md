@@ -8,6 +8,13 @@ Created by:
 - Ryan Brown
 - Soham Patel
 
+## Initial Setup
+After cloning this repo on your local machine, you should run
+
+#### `npm install`
+
+To install all the required packages so that the app can run.
+
 ## Available Scripts
 
 In the project directory, you can run:
