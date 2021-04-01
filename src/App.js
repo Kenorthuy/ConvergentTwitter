@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom"
 import Nav from "./components/Nav"
 import ROUTES from "./misc/routes"
 import "./App.css"
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootswatch/dist/darkly/bootstrap.min.css"
 
 function App() {
 	return (
