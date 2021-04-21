@@ -1,17 +1,18 @@
 import Home from "../views/Home"
-import Other from "../views/Other"
+import Dashboard from "../views/Dashboard"
 
 const routes = [
+
     {
         component: Home,
         title: "Home",
-        path: "/",
-        exact: true
+        path: "/Home",
+
     },
     {
-        component: Other,
-        title: "Other Page",
-        path: "/other"
+        component: Dashboard,
+        title: "Dashboard",
+        path: "/dashboard"
     }
 ]
 

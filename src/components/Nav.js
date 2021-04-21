@@ -4,10 +4,10 @@ import ROUTES from "../misc/routes"
 
 export default function MyNav () {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar id="nav" bg="light" expand="lg">
             <Navbar.Brand
                 as={Link}
-                to="/"
+                to="/Home"
             >Convergent Template Site</Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>

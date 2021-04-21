@@ -1,4 +1,4 @@
-import styles from "./Other.module.css"
+import "./Dashboard.css"
 
 export default function Other () {
     return (
