@@ -9,16 +9,16 @@ body {
     
 }
 
-h1, p {
+.Login h1, p {
     color: white;
 }
 
-h1 {
+.Login h1 {
     margin: 0 auto;
     font-size: 50px;
 }
 
-p {
+.Login p {
     font-size: 18px;
     font-weight: bold;
 }
@@ -31,7 +31,7 @@ p {
     color: white;
 }
 
-Button {
+.Login Button {
     display: block;
     margin: 25px auto;
     border-radius: 25px;

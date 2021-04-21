@@ -1,10 +1,14 @@
-import "./Dashboard.css"
-
-export default function Other () {
+import React, { Component } from 'react'
+import "./Dashboard.css";
+class Dashboard extends Component {
+  render() {
     return (
-        <div className="wrapper">
-            <h2>Other</h2>
-            <p>This is another page for now.</p>
-        </div>
-    )
+      <div className="dashboard">
+        <div className="phrases">phrases</div>
+        <div className="hashtags">hashtags</div>
+        <div className="engagement">engagement</div>
+      </div>
+    );
+  }
 }
+export default Dashboard;

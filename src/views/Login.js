@@ -6,11 +6,11 @@ import "./Login.css";
 class Login extends Component {
 
     componentDidMount(){
-        document.getElementById('nav').style.display = "none";
+        document.getElementById('menu').style.display = "none";
      }
 
      componentWillUnmount(){
-        document.getElementById('nav').style.display = "flex";
+        document.getElementById('menu').style.display = "flex";
      }
 
   render() {
@@ -23,7 +23,7 @@ class Login extends Component {
             type="button"
             onClick={(e) => {
                 e.preventDefault();
-                window.location.href="./Dashboard.js"
+                window.location.href="./Dashboard"
             }}>
           <p>Connect your User data</p>
         </Button>
@@ -32,7 +32,7 @@ class Login extends Component {
             type="button"
             onClick={(e) => {
                 e.preventDefault();
-                window.location.href="./Dashboard.js"
+                window.location.href="./Dashboard"
             }}>
           <p>Continue as a Guest</p>
         </Button>

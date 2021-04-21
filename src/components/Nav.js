@@ -1,22 +1,25 @@
-import { Navbar, Nav, NavDropdown } from "react-bootstrap"
-import { Link } from "react-router-dom"
-import ROUTES from "../misc/routes"
+import React, { Component } from "react";
+import { slide as Menu } from "react-burger-menu";
+import "./Nav.css";
 
-export default function MyNav () {
+class Navigation extends Component {
+  render() {
     return (
-        <Navbar id="nav" bg="light" expand="lg">
-            <Navbar.Brand
-                as={Link}
-                to="/Home"
-            >Convergent Template Site</Navbar.Brand>
-            <Navbar.Toggle />
-            <Navbar.Collapse>
-                <Nav>
-                    { ROUTES.map(route => {
-                        return <Nav.Link as={Link} to={route.path}>{route.title}</Nav.Link>
-                    })}
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>
-    )
+      <div id="menu">
+        <Menu>
+          <a id="profile" className="menu-item" href="/">
+            Profile
+          </a>
+          <a id="about" className="menu-item" href="/">
+            About
+          </a>
+          <a id="placeholder" className="menu-item" href="/">
+            Placeholder
+          </a>
+        </Menu>
+      </div>
+    );
+  }
 }
+
+export default Navigation;
