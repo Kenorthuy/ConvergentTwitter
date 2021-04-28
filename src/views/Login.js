@@ -17,7 +17,7 @@ class Login extends Component {
     return (
       <div className="Login">
           <img className="logo" src={ twitter } />
-          <h1>Welcome to Twit-Whiz!</h1>
+          <h1>Welcome to Tweet-Whiz!</h1>
         <Button 
             className="user" 
             type="button"

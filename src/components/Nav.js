@@ -7,13 +7,13 @@ class Navigation extends Component {
     return (
       <div id="menu">
         <Menu>
-          <a id="profile" className="menu-item" href="/">
-            Profile
+          <a id="placeholder" className="menu-item" href="">
+            Placeholder
           </a>
-          <a id="about" className="menu-item" href="/">
-            About
+          <a id="placeholder" className="menu-item" href="">
+            Placeholder
           </a>
-          <a id="placeholder" className="menu-item" href="/">
+          <a id="placeholder" className="menu-item" href="">
             Placeholder
           </a>
         </Menu>

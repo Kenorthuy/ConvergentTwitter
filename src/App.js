@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import Nav from "./components/Nav"
-import ROUTES from "./misc/routes"
 import Login from "./views/Login"
 import Dashboard from "./views/Dashboard"
 import Home from "./views/Home"
