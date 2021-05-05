@@ -4,7 +4,6 @@ import Nav from "./components/Nav"
 import Login from "./views/Login"
 import Dashboard from "./views/Dashboard"
 import Search from "./views/Search"
-import Home from "./views/Home"
 import "./App.css"
 
 class App extends Component {
@@ -15,7 +14,6 @@ render() {
 			<Nav />
 			<Route exact path ="/" component={Login} />
 			<Route exact path ="/dashboard" component={Dashboard} />
-			<Route exact path ="/Home" component={Home} />
 			<Route exact path ="/Search" component={Search} />
 			
 			{/* {
