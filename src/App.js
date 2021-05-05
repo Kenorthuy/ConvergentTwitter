@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom"
 import Nav from "./components/Nav"
 import Login from "./views/Login"
 import Dashboard from "./views/Dashboard"
+import Search from "./views/Search"
 import Home from "./views/Home"
 import "./App.css"
 
@@ -15,6 +16,7 @@ render() {
 			<Route exact path ="/" component={Login} />
 			<Route exact path ="/dashboard" component={Dashboard} />
 			<Route exact path ="/Home" component={Home} />
+			<Route exact path ="/Search" component={Search} />
 			
 			{/* {
 				ROUTES.map(route => {

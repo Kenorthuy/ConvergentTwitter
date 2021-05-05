@@ -39,43 +39,6 @@ p {
     background-color: #3B4669;
 }
 
-.results {
-    background-color: #1F2948;
-    width: 800px;
-    height: 600px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 0;
-}
-
-.results p {
-    color: white;
-    float: left;
-}
-
-.results span {
-    color: white;
-    float: right;
-}
-
-.hash {
-    background-color: #505A79;
-    width: 700px;
-    height: 50px;
-    margin: 50px auto;
-}
-
-.hash p {
-    padding: 0 10px;
-}
-
-.hidden {
-    opacity: 0;
-    display: none;
-    transition: opacity 5s ease-in-out;
-}
-
 .tweet-search {
     background-color: #3B4669;
     width: 50%;
