@@ -1,14 +1,24 @@
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import Nav from "./components/Nav"
-import ROUTES from "./misc/routes"
+import Login from "./views/Login"
+import Dashboard from "./views/Dashboard"
+import Search from "./views/Search"
+import Home from "./views/Home"
 import "./App.css"
-import "bootswatch/dist/darkly/bootstrap.min.css"
 
-function App() {
+class App extends Component {
+
+render() {
 	return (
 		<Router>
 			<Nav />
-			{
+			<Route exact path ="/" component={Login} />
+			<Route exact path ="/dashboard" component={Dashboard} />
+			<Route exact path ="/Home" component={Home} />
+			<Route exact path ="/Search" component={Search} />
+			
+			{/* {
 				ROUTES.map(route => {
 					return <Route 
 						exact={route.exact}
@@ -16,9 +26,12 @@ function App() {
 						component={route.component}
 					/>
 				})
-			}
+			} */}
 		</Router>
+		
 	)
+		}
 }
+
 
 export default App
