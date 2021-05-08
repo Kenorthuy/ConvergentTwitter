@@ -33,6 +33,11 @@ class AboutUs extends Component {
                 <p>We decided to create this product to explore the Twitter API to see what we are capable given
                     the information that is given through the API, and found a lot of neat things!
                 </p>
+                <p>
+                    Using the Twitter API, we were able to clean the data from the API calls to gather insights and present
+                    important patterns and correlations to users. In the future, we plan to use advanced techniques such as
+                    Natural Language Processing and Machine Learning to make the app make the key insights for the user!
+                </p>
                 <img className="teampic" src={ team } />
                 </div>
             </div>

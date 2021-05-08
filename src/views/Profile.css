@@ -10,7 +10,7 @@ body {
     top: 60px;
 }
 
-.about {
+.profile {
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -18,31 +18,23 @@ body {
     align-items: center;
 }
 
-.about h1,p {
+.profile h1,p {
     color: white;
 }
 
-.about h1 {
+.profile h1 {
     margin: 0 auto;
     font-size: 100px;
 }
 
-.about p {
+.profile p {
     margin-top: 30px;
     font-size: 30px;
 }
-.logo {
-    margin: 15px auto;
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
-    color: white;
-}
 
-.convergent {
+#error {
+    width:50px;
+    height:50px;
     margin: 15px auto;
-    margin-top: 50px;
-    width: 100px;
-    height: 100px;
     color: white;
 }

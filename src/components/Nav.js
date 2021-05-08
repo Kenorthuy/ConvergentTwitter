@@ -10,6 +10,9 @@ class Navigation extends Component {
           <a id="placeholder" className="menu-item" href="/Dashboard">
             Dashboard
           </a>
+          <a id="placeholder" className="menu-item" href="/Profile">
+            Profile
+          </a>
           <a id="placeholder" className="menu-item" href="/AboutUs">
             About Us
           </a>
