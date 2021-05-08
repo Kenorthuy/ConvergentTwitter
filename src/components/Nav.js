@@ -8,13 +8,13 @@ class Navigation extends Component {
       <div id="menu">
         <Menu>
           <a id="placeholder" className="menu-item" href="">
-            Placeholder
+            Analytics
           </a>
           <a id="placeholder" className="menu-item" href="">
-            Placeholder
+            Log Out
           </a>
           <a id="placeholder" className="menu-item" href="">
-            Placeholder
+            About Us
           </a>
         </Menu>
       </div>
