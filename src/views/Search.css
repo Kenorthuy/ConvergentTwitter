@@ -35,6 +35,12 @@
     padding: 30px 0;
 }
 
+.results img {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .results p {
     color: white;
     float: left;
@@ -61,6 +67,7 @@
 
 .hash p {
     padding: 0 10px;
+    color: white;
 }
 
 .tweet-search {
@@ -79,4 +86,8 @@
 
 .tweet-search:focus {
     outline: none;
+}
+
+#graph-data1, #graph-data2 {
+    width: 50%;
 }

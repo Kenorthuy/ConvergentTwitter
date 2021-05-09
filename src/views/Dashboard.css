@@ -2,14 +2,22 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+
 }
 
-.dashboard div {
+.a {
+    display: flex;
     border-radius: 20px;
     margin: 25px auto;
     margin-top: 50px;
+    justify-content: center;
+}
+
+.a ul {
+    position: absolute;
+    text-align: left;
+    margin-top: 50px;
+    left: 0;
 }
 
 p {
@@ -17,26 +25,33 @@ p {
 }
 
 .phrases {
+    position: relative;
     float: left;
-    width: 40%;
+    width: 45%;
     height: 200px;
     background-color: #3B4669;
-
 }
 
 .hashtags {
+    position: relative;
     float: right;
-    width: 40%;
+    width: 45%;
     height: 200px;
     background-color: #3B4669;
 
 }
 
 .engagement {
+    position: relative;
     clear: both;
     width: 100%;
     height: 300px;
     background-color: #3B4669;
+}
+
+.engagement .header {
+    top: 7px;
+    text-align: center;
 }
 
 .tweet-search {
@@ -53,10 +68,25 @@ p {
     background-size: 20px 20px;
 }
 
-.tweet-search:focus {
-    outline: none;
+.header {
+    border-radius: 20px;
+    position: absolute;
+    top: 3px;
+    width: 97%;
+    background-color: #263259;
+    height: 45px;
+    text-align: left;
 }
 
+.header p {
+    margin-left: 20px;
+}
+
+.engagement img {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 75px;
+}
 
 /* .search {
     left: -10%;
