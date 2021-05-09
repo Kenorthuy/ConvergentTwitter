@@ -66,6 +66,7 @@ class Search extends Component {
 
     document.getElementById("graph-data1").style.display = "flex";
     document.getElementById("graph-data2").style.display = "flex";
+    document.getElementById("results").style.display = "none";
     document.getElementById("hash1").style.display = "none";
     document.getElementById("hash2").style.display = "none";
     document.getElementById("hash3").style.display = "none";
