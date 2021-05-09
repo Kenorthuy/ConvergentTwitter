@@ -4,6 +4,8 @@ import Nav from "./components/Nav"
 import Login from "./views/Login"
 import Dashboard from "./views/Dashboard"
 import Search from "./views/Search"
+import AboutUs from "./views/AboutUs"
+import Profile from "./views/Profile"
 import "./App.css"
 
 class App extends Component {
@@ -15,6 +17,8 @@ render() {
 			<Route exact path ="/" component={Login} />
 			<Route exact path ="/dashboard" component={Dashboard} />
 			<Route exact path ="/Search" component={Search} />
+			<Route exact path ="/AboutUs" component={AboutUs} />
+			<Route exact path ="/Profile" component={Profile} />
 			
 			{/* {
 				ROUTES.map(route => {
